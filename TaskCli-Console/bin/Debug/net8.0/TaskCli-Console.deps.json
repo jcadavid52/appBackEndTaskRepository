@@ -1,0 +1,71 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TaskCli-Console/1.0.0": {
+        "dependencies": {
+          "TaskCli-LogicBusiness": "1.0.0"
+        },
+        "runtime": {
+          "TaskCli-Console.dll": {}
+        }
+      },
+      "TaskCli-LogicBusiness/1.0.0": {
+        "dependencies": {
+          "TaskCli-Services": "1.0.0"
+        },
+        "runtime": {
+          "TaskCli-LogicBusiness.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TaskCli-Models/1.0.0": {
+        "runtime": {
+          "TaskCli-Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "TaskCli-Services/1.0.0": {
+        "dependencies": {
+          "TaskCli-Models": "1.0.0"
+        },
+        "runtime": {
+          "TaskCli-Services.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskCli-Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskCli-LogicBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskCli-Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TaskCli-Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

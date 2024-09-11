@@ -1,0 +1,11 @@
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\bin\Debug\net8.0\TaskCli-Models.deps.json
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\bin\Debug\net8.0\TaskCli-Models.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\bin\Debug\net8.0\TaskCli-Models.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\TaskCli-Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\TaskCli-Models.AssemblyInfoInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\TaskCli-Models.AssemblyInfo.cs
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\TaskCli-Models.csproj.CoreCompileInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\TaskCli-Models.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\refint\TaskCli-Models.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\TaskCli-Models.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Models\obj\Debug\net8.0\ref\TaskCli-Models.dll
