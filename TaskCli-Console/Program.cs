@@ -18,7 +18,7 @@ if (response.ResponseResult == ResponseResult.Success)
         case "list":
             var tasks = logicApp.GetTasks();
 
-            if (tasks.ResponseResult == ResponseResult.Success)
+            if (tasks.ResponseResult == ResponseResult.Success && tasks.TasksModel != null)
             {
                 if (tasks.TasksModel.Count > 0)
                 {
@@ -40,6 +40,36 @@ if (response.ResponseResult == ResponseResult.Success)
             {
                 Console.WriteLine(tasks.DescriptionResult);
             }
+            break;
+        case "add":
+            if (args.Length > 2)
+                Console.WriteLine("The number of arguments exceeds those requested for this function.");
+            else if (args.Length < 2)
+                Console.WriteLine("Missing arguments for this function");
+            else
+            {
+                var taskModel = new TaskModel();
+
+                taskModel.Id = Guid.NewGuid().ToString();
+                taskModel.Description = args[1];
+                taskModel.Status = "todo";
+                taskModel.CreatedAt = DateTime.Now;
+                taskModel.UpdatedAt = DateTime.Now;
+
+                var taskAdd = logicApp.AddTask(taskModel);
+
+                if (taskAdd.ResponseResult == ResponseResult.Success && taskAdd.TaskModel != null)
+                    Console.WriteLine(taskAdd.DescriptionResult + "\n\n" + $"ID: {taskAdd.TaskModel.Id} \n\n" +
+                                              $"Description: {taskAdd.TaskModel.Description} \n\n" +
+                                              $"Status: {taskAdd.TaskModel.Status} \n\n" +
+                                              $"CreateAt: {taskAdd.TaskModel.CreatedAt} \n\n" +
+                                              $"UpdatedAt: {taskAdd.TaskModel.UpdatedAt} \n\n");
+
+                else
+                    Console.WriteLine(taskAdd.DescriptionResult);
+            }
+
+
             break;
         default:
             Console.WriteLine("Invalid option");

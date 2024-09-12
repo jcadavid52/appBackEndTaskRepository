@@ -25,7 +25,7 @@ namespace TaskCli_Data
 
                     tasks.TasksModel.Add(taskModel);
 
-                    var serializeJson = JsonConvert.SerializeObject(tasks.values, Formatting.Indented);
+                    var serializeJson = JsonConvert.SerializeObject(tasks.TasksModel, Formatting.Indented);
 
                     File.WriteAllText(_pathJson, serializeJson);
 
