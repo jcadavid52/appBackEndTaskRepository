@@ -9,6 +9,12 @@ namespace TaskCli_Utils
     {
         private readonly string _pathJson = @"C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\tasks.json";
 
+        public ManagementFileJson()
+        {
+            Environment.SetEnvironmentVariable("PathJson", _pathJson);
+
+        }
+
         public HandlerResponse initializeFile()
         {
             var response = new HandlerResponse();
