@@ -1,0 +1,17 @@
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\bin\Debug\net8.0\TaskCli-Data.deps.json
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\bin\Debug\net8.0\TaskCli-Data.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\bin\Debug\net8.0\TaskCli-Data.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\bin\Debug\net8.0\TaskCli-Models.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\bin\Debug\net8.0\TaskCli-Services.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\bin\Debug\net8.0\TaskCli-Services.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\bin\Debug\net8.0\TaskCli-Models.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-Data.csproj.AssemblyReference.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-Data.AssemblyInfoInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-Data.AssemblyInfo.cs
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-Data.csproj.CoreCompileInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-.C24ACE06.Up2Date
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-Data.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\refint\TaskCli-Data.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\TaskCli-Data.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Data\obj\Debug\net8.0\ref\TaskCli-Data.dll

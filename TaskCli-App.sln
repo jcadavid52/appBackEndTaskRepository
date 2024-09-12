@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCli-Services", "TaskCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCli-Models", "TaskCli-Models\TaskCli-Models.csproj", "{976B369B-9E5D-46EA-9F47-7A1E84AB1242}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCli-Utils", "TaskCli-Utils\TaskCli-Utils.csproj", "{9E1217F2-485B-4EA5-8CF7-AEAECAA4663A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{976B369B-9E5D-46EA-9F47-7A1E84AB1242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976B369B-9E5D-46EA-9F47-7A1E84AB1242}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976B369B-9E5D-46EA-9F47-7A1E84AB1242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1217F2-485B-4EA5-8CF7-AEAECAA4663A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1217F2-485B-4EA5-8CF7-AEAECAA4663A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1217F2-485B-4EA5-8CF7-AEAECAA4663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1217F2-485B-4EA5-8CF7-AEAECAA4663A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

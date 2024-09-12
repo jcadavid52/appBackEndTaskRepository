@@ -37,6 +37,19 @@
         "runtime": {
           "bin/placeholder/TaskCli-Services.dll": {}
         }
+      },
+      "TaskCli-Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TaskCli-Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskCli-Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskCli-Utils.dll": {}
+        }
       }
     }
   },
@@ -55,11 +68,17 @@
       "type": "project",
       "path": "../TaskCli-Services/TaskCli-Services.csproj",
       "msbuildProject": "../TaskCli-Services/TaskCli-Services.csproj"
+    },
+    "TaskCli-Utils/1.0.0": {
+      "type": "project",
+      "path": "../TaskCli-Utils/TaskCli-Utils.csproj",
+      "msbuildProject": "../TaskCli-Utils/TaskCli-Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "TaskCli-LogicBusiness >= 1.0.0"
+      "TaskCli-LogicBusiness >= 1.0.0",
+      "TaskCli-Utils >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -98,6 +117,9 @@
           "projectReferences": {
             "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\TaskCli-LogicBusiness.csproj": {
               "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\TaskCli-LogicBusiness.csproj"
+            },
+            "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\TaskCli-Utils.csproj": {
+              "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\TaskCli-Utils.csproj"
             }
           }
         }

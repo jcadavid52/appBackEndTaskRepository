@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaskCli-LogicBusiness\TaskCli-LogicBusiness.csproj" />
+    <ProjectReference Include="..\TaskCli-Utils\TaskCli-Utils.csproj" />
   </ItemGroup>
 
 </Project>
