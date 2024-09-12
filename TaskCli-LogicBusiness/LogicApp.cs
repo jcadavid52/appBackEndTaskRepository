@@ -29,10 +29,21 @@ namespace TaskCli_LogicBusiness
 
             return response;
         }
-
         public HandlerResponse DeleteTask(string id)
         {
             var response = _repositoryFile.DeleteTask(id);
+
+            return response;
+        }
+        public HandlerResponse UpdatedStatusTask(string id, string status)
+        {
+            var response = _repositoryFile.UpdatedStatusTask(id,status);
+
+            return response;
+        }
+        public HandlerResponse FilterTasks(string status)
+        {
+            var response = _repositoryFile.FilterTasks(status);
 
             return response;
         }

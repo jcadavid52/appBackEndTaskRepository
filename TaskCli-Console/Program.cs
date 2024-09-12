@@ -26,30 +26,62 @@ if (response.ResponseResult == ResponseResult.Success)
     switch (option)
     {
         case "list":
-            var tasks = logicApp.GetTasks();
-
-            if (tasks.ResponseResult == ResponseResult.Success && tasks.TasksModel != null)
+            if (args.Length > 2)
+                Console.WriteLine("The number of arguments exceeds those requested for this function.");
+            else if (args.Length == 2)
             {
-                if (tasks.TasksModel.Count > 0)
+                var tasksFilter = logicApp.FilterTasks(args[1]);
+
+                if (tasksFilter != null && tasksFilter.ResponseResult == ResponseResult.Success)
                 {
-                    foreach (var item in tasks.TasksModel)
+                    if (tasksFilter.TasksModel.Count > 0)
                     {
-                        Console.WriteLine($"ID: {item.Id} \n\n" +
-                                          $"Description: {item.Description} \n\n" +
-                                          $"Status: {item.Status} \n\n" +
-                                          $"CreateAt: {item.CreatedAt} \n\n" +
-                                          $"UpdatedAt: {item.UpdatedAt} \n\n---------------------------------------------------------------------- \n\n");
+                        foreach (var item in tasksFilter.TasksModel)
+                        {
+                            Console.WriteLine($"ID: {item.Id} \n\n" +
+                                              $"Description: {item.Description} \n\n" +
+                                              $"Status: {item.Status} \n\n" +
+                                              $"CreateAt: {item.CreatedAt} \n\n" +
+                                              $"UpdatedAt: {item.UpdatedAt} \n\n---------------------------------------------------------------------- \n\n");
+                        }
                     }
-
-
+                    else
+                    {
+                        Console.WriteLine("No results found");
+                    }
                 }
-                else
-                    Console.WriteLine("No tasks");
+
+
+
             }
             else
             {
-                Console.WriteLine(tasks.DescriptionResult);
+                var tasks = logicApp.GetTasks();
+
+                if (tasks.ResponseResult == ResponseResult.Success && tasks.TasksModel != null)
+                {
+                    if (tasks.TasksModel.Count > 0)
+                    {
+                        foreach (var item in tasks.TasksModel)
+                        {
+                            Console.WriteLine($"ID: {item.Id} \n\n" +
+                                              $"Description: {item.Description} \n\n" +
+                                              $"Status: {item.Status} \n\n" +
+                                              $"CreateAt: {item.CreatedAt} \n\n" +
+                                              $"UpdatedAt: {item.UpdatedAt} \n\n---------------------------------------------------------------------- \n\n");
+                        }
+
+
+                    }
+                    else
+                        Console.WriteLine("No tasks");
+                }
+                else
+                {
+                    Console.WriteLine(tasks.DescriptionResult);
+                }
             }
+            
             break;
         case "add":
             if (args.Length > 2)
@@ -125,6 +157,40 @@ if (response.ResponseResult == ResponseResult.Success)
                     Console.WriteLine(deletedTask.DescriptionResult);
 
 
+            }
+            break;
+        case "mark-in-progress":
+            if (args.Length > 2)
+                Console.WriteLine("The number of arguments exceeds those requested for this function.");
+            else if (args.Length < 2)
+                Console.WriteLine("Missing arguments for this function");
+            else
+            {
+                var statusProgress = logicApp.UpdatedStatusTask(args[1], "in-progress");
+
+                if (statusProgress.ResponseResult == ResponseResult.Success)
+                    Console.WriteLine(statusProgress.DescriptionResult);
+                else if (statusProgress.ResponseResult == ResponseResult.TaskNotFound)
+                    Console.WriteLine(statusProgress.DescriptionResult);
+                else
+                    Console.WriteLine(statusProgress.DescriptionResult);
+            }
+            break;
+        case "mark-done":
+            if (args.Length > 2)
+                Console.WriteLine("The number of arguments exceeds those requested for this function.");
+            else if (args.Length < 2)
+                Console.WriteLine("Missing arguments for this function");
+            else
+            {
+                var statusDone = logicApp.UpdatedStatusTask(args[1], "done");
+
+                if (statusDone.ResponseResult == ResponseResult.Success)
+                    Console.WriteLine(statusDone.DescriptionResult);
+                else if (statusDone.ResponseResult == ResponseResult.TaskNotFound)
+                    Console.WriteLine(statusDone.DescriptionResult);
+                else
+                    Console.WriteLine(statusDone.DescriptionResult);
             }
             break;
         default:

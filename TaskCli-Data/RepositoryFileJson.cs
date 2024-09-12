@@ -101,7 +101,10 @@ namespace TaskCli_Data
                     var findTask = tasks.TasksModel.FirstOrDefault(t => t.Id == id);
 
                     if (findTask != null)
+                    {
                         findTask.Description = description;
+                        findTask.UpdatedAt = DateTime.Now;
+                    } 
                     else
                     {
 
@@ -213,12 +216,105 @@ namespace TaskCli_Data
 
         public HandlerResponse UpdatedStatusTask(string id, string status)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var tasks = GetTasks();
+
+                if (tasks.TasksModel != null)
+                {
+                    var findTask = tasks.TasksModel.FirstOrDefault(t => t.Id == id);
+
+                    if (findTask != null)
+                        findTask.Status = status;
+                    else
+                    {
+                        return new HandlerResponse
+                        {
+                            TaskModel = null,
+                            ResponseResult = ResponseResult.TaskNotFound,
+                            DescriptionResult = "No task found with the indicated id"
+                        };
+                    }
+
+
+                    var jsonSerialize = JsonConvert.SerializeObject(tasks.TasksModel, Formatting.Indented);
+
+                    File.WriteAllText(_pathJson, jsonSerialize);
+
+                   
+
+                    return new HandlerResponse
+                    {
+                        TaskModel = findTask,
+                        ResponseResult = ResponseResult.Success,
+                        DescriptionResult = "Status task updated successfully!"
+                    };
+                }
+                else
+                {
+                    return new HandlerResponse
+                    {
+                        TaskModel = null,
+                        ResponseResult = ResponseResult.TaskNotFound,
+                        DescriptionResult = "Error getting tasks"
+                    };
+                }
+
+                
+            }
+            catch (Exception ex)
+            {
+
+                return new HandlerResponse
+                {
+                    TaskModel = null,
+                    ResponseResult = ResponseResult.UnknownError,
+                    DescriptionResult = "Error: " + ex.Message
+                };
+            }
         }
 
-        public List<TaskModel> FilterTasks(string status)
+        public HandlerResponse FilterTasks(string status)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var tasks = GetTasks();
+
+                if(tasks.TasksModel != null)
+                {
+
+                    var filterTasks = tasks.TasksModel.Where(o => o.Status == status).ToList();
+
+                    return new HandlerResponse
+                    {
+                        TasksModel = filterTasks,
+                        ResponseResult = ResponseResult.Success,
+                        DescriptionResult = string.Empty
+
+                    };
+                }
+                else
+                {
+                    return new HandlerResponse
+                    {
+                        TaskModel = null,
+                        ResponseResult = ResponseResult.TaskNotFound,
+                        DescriptionResult = "Error getting tasks"
+                    };
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                return new HandlerResponse
+                {
+                    TaskModel = null,
+                    ResponseResult = ResponseResult.UnknownError,
+                    DescriptionResult = "Error: " + ex.Message
+                };
+            }
+           
         }
     }
 }
