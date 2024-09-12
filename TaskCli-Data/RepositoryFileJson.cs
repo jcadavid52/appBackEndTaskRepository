@@ -149,6 +149,76 @@ namespace TaskCli_Data
             }
         }
 
-       
+        public HandlerResponse DeleteTask(string id)
+        {
+            try
+            {
+                var tasks = GetTasks();
+
+                if (tasks.TasksModel != null)
+                {
+                    var findTask = tasks.TasksModel.FirstOrDefault(o => o.Id == id);
+
+                    if (findTask != null)
+                        tasks.TasksModel.Remove(findTask);
+                    else
+                    {
+
+                        return new HandlerResponse
+                        {
+                            TaskModel = null,
+                            ResponseResult = ResponseResult.TaskNotFound,
+                            DescriptionResult = "No task found with the indicated id"
+                        };
+                    }
+
+
+                    var jsonSerialize = JsonConvert.SerializeObject(tasks.TasksModel, Formatting.Indented);
+
+                    File.WriteAllText(_pathJson, jsonSerialize);
+
+
+                    return new HandlerResponse
+                    {
+                        TaskModel = findTask,
+                        ResponseResult = ResponseResult.Success,
+                        DescriptionResult = "Task deleted successfully!"
+                    };
+                }
+                else
+                {
+                    return new HandlerResponse
+                    {
+                        TaskModel = null,
+                        ResponseResult = ResponseResult.TaskNotFound,
+                        DescriptionResult = "Error getting tasks"
+                    };
+                }
+
+                
+            }
+            catch (Exception ex)
+            {
+
+                return new HandlerResponse
+                {
+                    TaskModel = null,
+                    ResponseResult = ResponseResult.UnknownError,
+                    DescriptionResult = "Error: " + ex.Message
+                };
+            }
+
+
+        }
+
+        public HandlerResponse UpdatedStatusTask(string id, string status)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<TaskModel> FilterTasks(string status)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

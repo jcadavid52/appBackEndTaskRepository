@@ -108,6 +108,25 @@ if (response.ResponseResult == ResponseResult.Success)
                     Console.WriteLine(updatedTask.DescriptionResult);
             }
             break;
+        case "delete":
+            if (args.Length > 2)
+                Console.WriteLine("The number of arguments exceeds those requested for this function.");
+            else if (args.Length < 2)
+                Console.WriteLine("Missing arguments for this function");
+            else
+            {
+                var deletedTask = logicApp.DeleteTask(args[1]);
+
+                if (deletedTask.ResponseResult == ResponseResult.Success)
+                    Console.WriteLine(deletedTask.DescriptionResult);
+                else if (deletedTask.ResponseResult == ResponseResult.TaskNotFound)
+                    Console.WriteLine(deletedTask.DescriptionResult);
+                else
+                    Console.WriteLine(deletedTask.DescriptionResult);
+
+
+            }
+            break;
         default:
             Console.WriteLine("Invalid option");
             break;

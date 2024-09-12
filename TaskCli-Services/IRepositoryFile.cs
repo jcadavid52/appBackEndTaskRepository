@@ -12,7 +12,8 @@ namespace TaskCli_Services
         HandlerResponse GetTasks();
         HandlerResponse AddTask(TaskModel taskModel);
         HandlerResponse UpdateTask(string id, string description);
-
-
+        HandlerResponse DeleteTask(string id);
+        HandlerResponse UpdatedStatusTask(string id, string status);
+        List<TaskModel> FilterTasks(string status);
     }
 }

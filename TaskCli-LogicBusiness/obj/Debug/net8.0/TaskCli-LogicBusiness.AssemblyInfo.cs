@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskCli-LogicBusiness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18ed0922648418cfb8aee47f109b1729fd5b3116")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e72b4fd7f3c9336c197abc4992154136060b2102")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskCli-LogicBusiness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskCli-LogicBusiness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
