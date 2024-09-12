@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xX4wmfXzR3U=",
+  "dgSpecHash": "zouw9sHt/m4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Console\\TaskCli-Console.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

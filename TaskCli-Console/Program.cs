@@ -1,14 +1,20 @@
-﻿using TaskCli_LogicBusiness;
+﻿using TaskCli_Data;
+using TaskCli_LogicBusiness;
 using TaskCli_Models;
 using TaskCli_Services;
 using TaskCli_Utils;
 
-args = new string[] { "add", "Tarea 4" };
+//args = new string[] { "update", "a094ea7b-d0db-4203-b501-3f1bbc8b3318","Tarea 2 modificada" };
 
-ILogicApp logicApp = new LogicApp();
 IManagementFiles file = new ManagementFileJson();
 
 var response = file.initializeFile();
+
+IRepositoryFile repository = new RepositoryFileJson();
+ILogicApp logicApp = new LogicApp(repository);
+
+
+
 
 
 string option = args[0];
@@ -75,6 +81,32 @@ if (response.ResponseResult == ResponseResult.Success)
             }
 
 
+            break;
+        case "update":
+            if (args.Length > 3)
+                Console.WriteLine("The number of arguments exceeds those requested for this function.");
+            else if (args.Length < 3)
+                Console.WriteLine("Missing arguments for this function");
+            else
+            {
+                var updatedTask = logicApp.UpdateTask(args[1], args[2]);
+
+                if (updatedTask.ResponseResult == ResponseResult.Success && updatedTask.TaskModel != null)
+                {
+
+
+
+                    Console.WriteLine(updatedTask.DescriptionResult + "\n\n" + $"ID: {updatedTask.TaskModel.Id} \n\n" +
+                                             $"Description: {updatedTask.TaskModel.Description} \n\n" +
+                                             $"Status: {updatedTask.TaskModel.Status} \n\n" +
+                                             $"CreateAt: {updatedTask.TaskModel.CreatedAt} \n\n" +
+                                             $"UpdatedAt: {updatedTask.TaskModel.UpdatedAt} \n\n");
+                }
+                else if (updatedTask.ResponseResult == ResponseResult.TaskNotFound)
+                    Console.WriteLine(updatedTask.DescriptionResult);
+                else
+                    Console.WriteLine(updatedTask.DescriptionResult);
+            }
             break;
         default:
             Console.WriteLine("Invalid option");

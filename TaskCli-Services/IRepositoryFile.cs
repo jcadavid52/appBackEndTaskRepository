@@ -11,6 +11,8 @@ namespace TaskCli_Services
     {
         HandlerResponse GetTasks();
         HandlerResponse AddTask(TaskModel taskModel);
-        
+        HandlerResponse UpdateTask(string id, string description);
+
+
     }
 }

@@ -24,6 +24,11 @@ namespace TaskCli_LogicBusiness
             return response;
         }
 
-        
+        public HandlerResponse UpdateTask(string id, string description)
+        {
+            var response = _repositoryFile.UpdateTask(id,description);
+
+            return response;
+        }
     }
 }

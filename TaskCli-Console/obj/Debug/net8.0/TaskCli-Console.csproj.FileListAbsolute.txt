@@ -22,3 +22,6 @@ C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\Ta
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Console\obj\Debug\net8.0\ref\TaskCli-Console.dll
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Console\bin\Debug\net8.0\TaskCli-Utils.dll
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Console\bin\Debug\net8.0\TaskCli-Utils.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Console\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Console\bin\Debug\net8.0\TaskCli-Data.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Console\bin\Debug\net8.0\TaskCli-Data.pdb
