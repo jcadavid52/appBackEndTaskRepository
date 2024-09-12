@@ -5,62 +5,23 @@ namespace TaskCli_LogicBusiness
 {
     public class LogicApp : ILogicApp
     {
+        private readonly IRepositoryFile _repositoryFile;
+
+        public LogicApp(IRepositoryFile repositoryFile)
+        {
+            _repositoryFile = repositoryFile;
+        }
         public HandlerResponse GetTasks()
         {
-            List<TaskModel> taskModels = new List<TaskModel>();
-
-            taskModels.Add(
-            new TaskModel() 
-            {
-              Id = Guid.NewGuid().ToString(),
-              Status = "todo",
-              Description = "Tarea 1",
-              CreatedAt = DateTime.Now,
-              UpdatedAt = DateTime.Now,
-
-            }
-            
-            );
-
-            taskModels.Add(
-            new TaskModel()
-            {
-                Id = Guid.NewGuid().ToString(),
-                Status = "todo",
-                Description = "Tarea 2",
-                CreatedAt = DateTime.Now,
-                UpdatedAt = DateTime.Now,
-
-            }
-
-            );
-
-            taskModels.Add(
-            new TaskModel()
-            {
-                Id = Guid.NewGuid().ToString(),
-                Status = "done",
-                Description = "Tarea 3",
-                CreatedAt = DateTime.Now,
-                UpdatedAt = DateTime.Now,
-
-            }
-
-            );
-
-            var response = new HandlerResponse();
-
-            response.ResponseResult = ResponseResult.Success;
-            response.TasksModel = taskModels;
-            response.DescriptionResult = "";
+            var response = _repositoryFile.GetTasks();
 
             return response;
-
-
         }
         public HandlerResponse AddTask(TaskModel taskModel)
         {
-            throw new NotImplementedException();
+            var response = _repositoryFile.AddTask(taskModel);
+
+            return response;
         }
 
         

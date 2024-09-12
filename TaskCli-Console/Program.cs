@@ -3,10 +3,14 @@ using TaskCli_Models;
 using TaskCli_Services;
 using TaskCli_Utils;
 
+args = new string[] { "add", "Tarea 4" };
+
 ILogicApp logicApp = new LogicApp();
 IManagementFiles file = new ManagementFileJson();
 
 var response = file.initializeFile();
+
+
 string option = args[0];
 
 if (response.ResponseResult == ResponseResult.Success)
@@ -48,6 +52,7 @@ if (response.ResponseResult == ResponseResult.Success)
                 Console.WriteLine("Missing arguments for this function");
             else
             {
+               
                 var taskModel = new TaskModel();
 
                 taskModel.Id = Guid.NewGuid().ToString();
