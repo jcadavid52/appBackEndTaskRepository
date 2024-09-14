@@ -41,7 +41,7 @@ namespace TaskCli_Data
                     return new HandlerResponse
                     {
                         TaskModel = null,
-                        ResponseResult = ResponseResult.TaskNotFound,
+                        ResponseResult = ResponseResult.UnknownError,
                         DescriptionResult = "Error getting tasks"
                     };
                 }
@@ -133,7 +133,7 @@ namespace TaskCli_Data
                     return new HandlerResponse
                     {
                         TaskModel = null,
-                        ResponseResult = ResponseResult.TaskNotFound,
+                        ResponseResult = ResponseResult.UnknownError,
                         DescriptionResult = "Error getting tasks"
                     };
                 }
@@ -193,7 +193,7 @@ namespace TaskCli_Data
                     return new HandlerResponse
                     {
                         TaskModel = null,
-                        ResponseResult = ResponseResult.TaskNotFound,
+                        ResponseResult = ResponseResult.UnknownError,
                         DescriptionResult = "Error getting tasks"
                     };
                 }
@@ -255,7 +255,7 @@ namespace TaskCli_Data
                     return new HandlerResponse
                     {
                         TaskModel = null,
-                        ResponseResult = ResponseResult.TaskNotFound,
+                        ResponseResult = ResponseResult.UnknownError,
                         DescriptionResult = "Error getting tasks"
                     };
                 }
@@ -298,7 +298,7 @@ namespace TaskCli_Data
                     return new HandlerResponse
                     {
                         TaskModel = null,
-                        ResponseResult = ResponseResult.TaskNotFound,
+                        ResponseResult = ResponseResult.UnknownError,
                         DescriptionResult = "Error getting tasks"
                     };
                 }

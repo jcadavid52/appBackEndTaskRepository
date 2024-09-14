@@ -93,7 +93,7 @@ namespace TaskCli_Api.Controllers
                 });
             }else if(taskAdd.ResponseResult == ResponseResult.TaskNotFound)
             {
-                return StatusCode(500, taskAdd.DescriptionResult);
+                return StatusCode(404, taskAdd.DescriptionResult);
             }
             else
             {
@@ -126,7 +126,7 @@ namespace TaskCli_Api.Controllers
             }
             else if (taskUpdate.ResponseResult == ResponseResult.TaskNotFound)
             {
-                return StatusCode(500, taskUpdate.DescriptionResult);
+                return StatusCode(404, taskUpdate.DescriptionResult);
             }
             else
             {
@@ -157,7 +157,7 @@ namespace TaskCli_Api.Controllers
             }
             else if (response.ResponseResult == ResponseResult.TaskNotFound)
             {
-                return StatusCode(500, response.DescriptionResult);
+                return StatusCode(404, response.DescriptionResult);
             }
             else
             {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskCli-Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3ab730095bccdc1eaf799c7f97a877a7e9b2a4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de29e969cf3c8af577aa0cde0634cd11a3507e0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskCli-Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskCli-Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
