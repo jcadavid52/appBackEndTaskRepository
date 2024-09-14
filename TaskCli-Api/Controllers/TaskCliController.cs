@@ -166,5 +166,31 @@ namespace TaskCli_Api.Controllers
 
         }
 
+        [HttpDelete("DeleteTask")]
+        public IActionResult Delete(string id) 
+        {
+            var deleteTaskResponse = _logicApp.DeleteTask(id);
+
+            if (deleteTaskResponse.ResponseResult == ResponseResult.Success)
+            {
+
+                return StatusCode(200, new
+                {
+                    Description = deleteTaskResponse.DescriptionResult,
+
+                    Task = deleteTaskResponse.TaskModel
+                });
+            }
+            else if (deleteTaskResponse.ResponseResult == ResponseResult.TaskNotFound)
+            {
+                return StatusCode(500, deleteTaskResponse.DescriptionResult);
+            }
+            else
+            {
+                return StatusCode(500, deleteTaskResponse.DescriptionResult);
+            }
+
+        }
+
     }
 }
