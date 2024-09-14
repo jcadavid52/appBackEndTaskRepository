@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "taskModelRequest",
-        "Type": "TaskCli_Api.RequestModels.TaskAddModelRequest",
+        "Type": "TaskCli_Api.RequestModels.TaskModelRequest",
         "IsRequired": true
       }
     ],
@@ -39,6 +39,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskCli_Api.Controllers.TaskCliController",
+    "Method": "Update",
+    "RelativePath": "api/TaskCli/UpdateTask",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskModelRequest",
+        "Type": "TaskCli_Api.RequestModels.TaskModelRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

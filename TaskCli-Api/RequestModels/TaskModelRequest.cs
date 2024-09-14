@@ -1,6 +1,6 @@
 ﻿namespace TaskCli_Api.RequestModels
 {
-    public class TaskAddModelRequest
+    public class TaskModelRequest
     {
         public string Description { get; set; }
     }

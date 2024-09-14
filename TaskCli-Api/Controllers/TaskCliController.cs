@@ -64,7 +64,7 @@ namespace TaskCli_Api.Controllers
         }
 
         [HttpPost("AddTask")]
-        public IActionResult Post([FromBody] TaskAddModelRequest taskModelRequest)
+        public IActionResult Post([FromBody] TaskModelRequest taskModelRequest)
         {
             if (string.IsNullOrEmpty(taskModelRequest.Description))
             {
@@ -91,7 +91,11 @@ namespace TaskCli_Api.Controllers
                  
                     Task = taskAdd.TaskModel
                 });
-            }else
+            }else if(taskAdd.ResponseResult == ResponseResult.TaskNotFound)
+            {
+                return StatusCode(500, taskAdd.DescriptionResult);
+            }
+            else
             {
                 return StatusCode(500, taskAdd.DescriptionResult);
             }
@@ -99,6 +103,38 @@ namespace TaskCli_Api.Controllers
          
         }
 
+        [HttpPut("UpdateTask")]
+        public IActionResult Update(string id, [FromBody] TaskModelRequest taskModelRequest)
+        {
+          
 
+            if (string.IsNullOrEmpty(taskModelRequest.Description))
+                return BadRequest("La descripción no puede estar vacía.");
+
+            var taskUpdate = _logicApp.UpdateTask(id, taskModelRequest.Description);
+
+
+            if (taskUpdate.ResponseResult == ResponseResult.Success)
+            {
+
+                return StatusCode(200, new
+                {
+                    Description = taskUpdate.DescriptionResult,
+
+                    Task = taskUpdate.TaskModel
+                });
+            }
+            else if (taskUpdate.ResponseResult == ResponseResult.TaskNotFound)
+            {
+                return StatusCode(500, taskUpdate.DescriptionResult);
+            }
+            else
+            {
+                return StatusCode(500, taskUpdate.DescriptionResult);
+            }
+
+
+
+        }
     }
 }
