@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "TaskCli_Api.Controllers.TaskCliController",
+    "Method": "Post",
+    "RelativePath": "api/TaskCli/AddTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskModelRequest",
+        "Type": "TaskCli_Api.RequestModels.TaskAddModelRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskCli_Api.Controllers.TaskCliController",
     "Method": "Get",
     "RelativePath": "api/TaskCli/FilterTasks",
     "HttpMethod": "GET",

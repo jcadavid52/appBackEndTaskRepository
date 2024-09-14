@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TaskCli_Api.RequestModels;
+using TaskCli_Models;
 using TaskCli_Services;
 
 namespace TaskCli_Api.Controllers
@@ -60,5 +62,43 @@ namespace TaskCli_Api.Controllers
             
 
         }
+
+        [HttpPost("AddTask")]
+        public IActionResult Post([FromBody] TaskAddModelRequest taskModelRequest)
+        {
+            if (string.IsNullOrEmpty(taskModelRequest.Description))
+            {
+                return BadRequest("La descripción no puede estar vacía.");
+            }
+            var taskModel = new TaskModel();
+
+            taskModel.Id = Guid.NewGuid().ToString();
+            taskModel.Description = taskModelRequest.Description;
+            taskModel.Status = "todo";
+            taskModel.CreatedAt = DateTime.Now;
+            taskModel.UpdatedAt = DateTime.Now;
+
+            var taskAdd = _logicApp.AddTask(taskModel);
+
+
+
+            if (taskAdd.ResponseResult == ResponseResult.Success)
+            { 
+
+                return StatusCode(200, new
+                {
+                    Description = taskAdd.DescriptionResult,
+                 
+                    Task = taskAdd.TaskModel
+                });
+            }else
+            {
+                return StatusCode(500, taskAdd.DescriptionResult);
+            }
+
+         
+        }
+
+
     }
 }
