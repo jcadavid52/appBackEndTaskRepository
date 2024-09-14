@@ -30,3 +30,14 @@ C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\Ta
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Debug\net8.0\TaskCli-Api.pdb
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Debug\net8.0\TaskCli-Api.genruntimeconfig.cache
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Debug\net8.0\ref\TaskCli-Api.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-LogicBusiness.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Models.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Services.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-LogicBusiness.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Services.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Models.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Data.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Data.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Utils.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\bin\Debug\net8.0\TaskCli-Utils.pdb

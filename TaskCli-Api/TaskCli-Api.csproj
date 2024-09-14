@@ -11,4 +11,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskCli-Data\TaskCli-Data.csproj" />
+    <ProjectReference Include="..\TaskCli-LogicBusiness\TaskCli-LogicBusiness.csproj" />
+    <ProjectReference Include="..\TaskCli-Services\TaskCli-Services.csproj" />
+    <ProjectReference Include="..\TaskCli-Utils\TaskCli-Utils.csproj" />
+  </ItemGroup>
+
 </Project>

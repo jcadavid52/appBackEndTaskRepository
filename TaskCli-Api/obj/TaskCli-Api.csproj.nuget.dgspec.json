@@ -33,7 +33,20 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Data\\TaskCli-Data.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Data\\TaskCli-Data.csproj"
+              },
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\TaskCli-LogicBusiness.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\TaskCli-LogicBusiness.csproj"
+              },
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj"
+              },
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\TaskCli-Utils.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\TaskCli-Utils.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -71,6 +84,358 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Data\\TaskCli-Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Data\\TaskCli-Data.csproj",
+        "projectName": "TaskCli-Data",
+        "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Data\\TaskCli-Data.csproj",
+        "packagesPath": "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Camilo Cadavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\TaskCli-LogicBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\TaskCli-LogicBusiness.csproj",
+        "projectName": "TaskCli-LogicBusiness",
+        "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\TaskCli-LogicBusiness.csproj",
+        "packagesPath": "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-LogicBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Camilo Cadavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Models\\TaskCli-Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Models\\TaskCli-Models.csproj",
+        "projectName": "TaskCli-Models",
+        "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Models\\TaskCli-Models.csproj",
+        "packagesPath": "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Camilo Cadavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj",
+        "projectName": "TaskCli-Services",
+        "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj",
+        "packagesPath": "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Camilo Cadavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Models\\TaskCli-Models.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Models\\TaskCli-Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\TaskCli-Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\TaskCli-Utils.csproj",
+        "projectName": "TaskCli-Utils",
+        "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\TaskCli-Utils.csproj",
+        "packagesPath": "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Camilo Cadavid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj": {
+                "projectPath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Services\\TaskCli-Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

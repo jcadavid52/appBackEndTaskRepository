@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "TaskCli_Api.Controllers.TaskCliController",
+    "Method": "Get",
+    "RelativePath": "api/TaskCli/FilterTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskCli_Api.Controllers.TaskCliController",
+    "Method": "Get",
+    "RelativePath": "api/TaskCli/GetTasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskCli_Api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

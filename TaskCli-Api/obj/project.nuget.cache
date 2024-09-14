@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "3LlmNx+suoA=",
+  "dgSpecHash": "08DzI2gOM50=",
   "success": true,
   "projectFilePath": "C:\\Users\\Camilo Cadavid\\Documents\\Projects\\Personal projects\\Task-Cli N Capas\\TaskCli-App\\TaskCli-Api\\TaskCli-Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Camilo Cadavid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
