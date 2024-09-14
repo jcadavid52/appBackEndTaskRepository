@@ -136,5 +136,35 @@ namespace TaskCli_Api.Controllers
 
 
         }
+
+        [HttpPut("UpdateStatusTask")]
+        public IActionResult UpdateStatusTask(string id, [FromBody] ModelRequestUpdateStatusTask modelRequestUpdateStatusTask)
+        {
+            if (string.IsNullOrEmpty(modelRequestUpdateStatusTask.Status))
+                return BadRequest("El campo status no puede estar vacío");
+
+            var response = _logicApp.UpdatedStatusTask(id, modelRequestUpdateStatusTask.Status);
+
+            if (response.ResponseResult == ResponseResult.Success)
+            {
+
+                return StatusCode(200, new
+                {
+                    Description = response.DescriptionResult,
+
+                    Task = response.TaskModel
+                });
+            }
+            else if (response.ResponseResult == ResponseResult.TaskNotFound)
+            {
+                return StatusCode(500, response.DescriptionResult);
+            }
+            else
+            {
+                return StatusCode(500, response.DescriptionResult);
+            }
+
+        }
+
     }
 }

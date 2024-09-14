@@ -43,6 +43,27 @@
   },
   {
     "ContainingType": "TaskCli_Api.Controllers.TaskCliController",
+    "Method": "UpdateStatusTask",
+    "RelativePath": "api/TaskCli/UpdateStatusTask",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "modelRequestUpdateStatusTask",
+        "Type": "TaskCli_Api.RequestModels.ModelRequestUpdateStatusTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskCli_Api.Controllers.TaskCliController",
     "Method": "Update",
     "RelativePath": "api/TaskCli/UpdateTask",
     "HttpMethod": "PUT",
