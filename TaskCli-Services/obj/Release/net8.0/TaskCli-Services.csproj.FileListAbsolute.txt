@@ -1,0 +1,15 @@
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\bin\Release\net8.0\TaskCli-Services.deps.json
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\bin\Release\net8.0\TaskCli-Services.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\bin\Release\net8.0\TaskCli-Services.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\bin\Release\net8.0\TaskCli-Models.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\bin\Release\net8.0\TaskCli-Models.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-Services.csproj.AssemblyReference.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-Services.AssemblyInfoInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-Services.AssemblyInfo.cs
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-Services.csproj.CoreCompileInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-.D94BA0DE.Up2Date
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-Services.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\refint\TaskCli-Services.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\TaskCli-Services.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Release\net8.0\ref\TaskCli-Services.dll

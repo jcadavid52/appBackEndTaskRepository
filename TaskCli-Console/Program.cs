@@ -90,14 +90,16 @@ if (response.ResponseResult == ResponseResult.Success)
                 Console.WriteLine("Missing arguments for this function");
             else
             {
-               
+
+                
+
                 var taskModel = new TaskModel();
 
                 taskModel.Id = Guid.NewGuid().ToString();
                 taskModel.Description = args[1];
                 taskModel.Status = "todo";
-                taskModel.CreatedAt = DateTime.Now;
-                taskModel.UpdatedAt = DateTime.Now;
+                taskModel.CreatedAt = DateTime.Now.ToString("yyyy-mm-dd");
+                taskModel.UpdatedAt = DateTime.Now.ToString("yyyy-mm-dd");
 
                 var taskAdd = logicApp.AddTask(taskModel);
 

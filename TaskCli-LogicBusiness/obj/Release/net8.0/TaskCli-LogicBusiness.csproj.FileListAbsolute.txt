@@ -1,0 +1,17 @@
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\bin\Release\net8.0\TaskCli-LogicBusiness.deps.json
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\bin\Release\net8.0\TaskCli-LogicBusiness.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\bin\Release\net8.0\TaskCli-LogicBusiness.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\bin\Release\net8.0\TaskCli-Models.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\bin\Release\net8.0\TaskCli-Services.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\bin\Release\net8.0\TaskCli-Services.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\bin\Release\net8.0\TaskCli-Models.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-LogicBusiness.csproj.AssemblyReference.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-LogicBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-LogicBusiness.AssemblyInfoInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-LogicBusiness.AssemblyInfo.cs
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-LogicBusiness.csproj.CoreCompileInputs.cache
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-.4DE5D0A8.Up2Date
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-LogicBusiness.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\refint\TaskCli-LogicBusiness.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\TaskCli-LogicBusiness.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Release\net8.0\ref\TaskCli-LogicBusiness.dll

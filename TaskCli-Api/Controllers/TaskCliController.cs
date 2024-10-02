@@ -75,8 +75,8 @@ namespace TaskCli_Api.Controllers
             taskModel.Id = Guid.NewGuid().ToString();
             taskModel.Description = taskModelRequest.Description;
             taskModel.Status = "todo";
-            taskModel.CreatedAt = DateTime.Now;
-            taskModel.UpdatedAt = DateTime.Now;
+            taskModel.CreatedAt = DateTime.Now.ToString("yyyy-mm-dd");
+            taskModel.UpdatedAt = DateTime.Now.ToString("yyyy-mm-dd");
 
             var taskAdd = _logicApp.AddTask(taskModel);
 
@@ -106,8 +106,8 @@ namespace TaskCli_Api.Controllers
         [HttpPut("UpdateTask")]
         public IActionResult Update(string id, [FromBody] TaskModelRequest taskModelRequest)
         {
-          
-
+           
+            
             if (string.IsNullOrEmpty(taskModelRequest.Description))
                 return BadRequest("La descripción no puede estar vacía.");
 

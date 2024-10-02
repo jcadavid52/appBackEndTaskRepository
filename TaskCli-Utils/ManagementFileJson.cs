@@ -7,7 +7,7 @@ namespace TaskCli_Utils
 {
     public class ManagementFileJson : IManagementFiles
     {
-        private readonly string _pathJson = @"C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\tasks.json";
+        private readonly string _pathJson = @"C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Publish Task-Cli N Capas\tasks.json";
 
         public ManagementFileJson()
         {

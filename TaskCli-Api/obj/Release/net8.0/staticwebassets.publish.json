@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0vIy7mc3+aS5HKlBJURnMXWI8aWoPmzajWv2S8CuAsw=",
+  "Source": "TaskCli-Api",
+  "BasePath": "_content/TaskCli-Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
