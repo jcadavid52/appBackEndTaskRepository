@@ -102,7 +102,7 @@ namespace TaskCli_Data
 
                     if (findTask != null)
                     {
-                        string hour = DateTime.Now.ToString("HH:mm");
+                        string hour = DateTime.Now.ToString("HH:mm:ss");
                         string date = DateTime.Today.ToShortDateString().ToString();
                         string fullDate = date + " " + hour;
 

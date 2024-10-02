@@ -91,7 +91,7 @@ if (response.ResponseResult == ResponseResult.Success)
             else
             {
 
-                string hour = DateTime.Now.ToString("HH:mm");
+                string hour = DateTime.Now.ToString("HH:mm:ss");
                 string date = DateTime.Today.ToShortDateString().ToString();
                 string fullDate = date + " " + hour;
 

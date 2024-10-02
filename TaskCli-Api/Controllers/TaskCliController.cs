@@ -71,7 +71,7 @@ namespace TaskCli_Api.Controllers
                 return BadRequest("La descripción no puede estar vacía.");
             }
 
-            string hour = DateTime.Now.ToString("HH:mm");
+            string hour = DateTime.Now.ToString("HH:mm:ss");
             string date = DateTime.Today.ToShortDateString().ToString();
             string fullDate = date + " " + hour;
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskCli-Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8a47e0a00f25d467577a283adf32a98a4fcfdf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff76f56589139575b5087cd0bd8dff6719662c5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskCli-Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskCli-Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

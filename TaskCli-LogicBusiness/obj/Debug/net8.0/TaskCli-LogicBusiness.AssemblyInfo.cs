@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskCli-LogicBusiness")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0032d70339dd1dfcc41f0391e4a15a3f04cdb495")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff76f56589139575b5087cd0bd8dff6719662c5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskCli-LogicBusiness")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskCli-LogicBusiness")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
