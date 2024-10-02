@@ -102,8 +102,12 @@ namespace TaskCli_Data
 
                     if (findTask != null)
                     {
+                        string hour = DateTime.Now.ToString("HH:mm");
+                        string date = DateTime.Today.ToShortDateString().ToString();
+                        string fullDate = date + " " + hour;
+
                         findTask.Description = description;
-                        findTask.UpdatedAt = DateTime.Today.ToShortDateString().ToString();
+                        findTask.UpdatedAt = fullDate;
                     } 
                     else
                     {

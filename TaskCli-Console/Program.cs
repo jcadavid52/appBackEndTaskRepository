@@ -91,15 +91,17 @@ if (response.ResponseResult == ResponseResult.Success)
             else
             {
 
-                
+                string hour = DateTime.Now.ToString("HH:mm");
+                string date = DateTime.Today.ToShortDateString().ToString();
+                string fullDate = date + " " + hour;
 
                 var taskModel = new TaskModel();
 
                 taskModel.Id = Guid.NewGuid().ToString();
                 taskModel.Description = args[1];
                 taskModel.Status = "todo";
-                taskModel.CreatedAt = DateTime.Today.ToShortDateString().ToString();
-                taskModel.UpdatedAt = DateTime.Today.ToShortDateString().ToString();
+                taskModel.CreatedAt = fullDate;
+                taskModel.UpdatedAt = fullDate;
 
                 var taskAdd = logicApp.AddTask(taskModel);
 

@@ -70,13 +70,18 @@ namespace TaskCli_Api.Controllers
             {
                 return BadRequest("La descripción no puede estar vacía.");
             }
+
+            string hour = DateTime.Now.ToString("HH:mm");
+            string date = DateTime.Today.ToShortDateString().ToString();
+            string fullDate = date + " " + hour;
+
             var taskModel = new TaskModel();
 
             taskModel.Id = Guid.NewGuid().ToString();
             taskModel.Description = taskModelRequest.Description;
             taskModel.Status = "todo";
-            taskModel.CreatedAt = DateTime.Today.ToShortDateString().ToString();
-            taskModel.UpdatedAt = DateTime.Today.ToShortDateString().ToString();
+            taskModel.CreatedAt = fullDate;
+            taskModel.UpdatedAt = fullDate;
 
             var taskAdd = _logicApp.AddTask(taskModel);
 
