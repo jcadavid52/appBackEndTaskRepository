@@ -75,8 +75,8 @@ namespace TaskCli_Api.Controllers
             taskModel.Id = Guid.NewGuid().ToString();
             taskModel.Description = taskModelRequest.Description;
             taskModel.Status = "todo";
-            taskModel.CreatedAt = DateTime.Now.ToString("yyyy-mm-dd");
-            taskModel.UpdatedAt = DateTime.Now.ToString("yyyy-mm-dd");
+            taskModel.CreatedAt = DateTime.Today.ToShortDateString().ToString();
+            taskModel.UpdatedAt = DateTime.Today.ToShortDateString().ToString();
 
             var taskAdd = _logicApp.AddTask(taskModel);
 

@@ -103,7 +103,7 @@ namespace TaskCli_Data
                     if (findTask != null)
                     {
                         findTask.Description = description;
-                        findTask.UpdatedAt = DateTime.Now.ToString("yyyy-mm-dd");
+                        findTask.UpdatedAt = DateTime.Today.ToShortDateString().ToString();
                     } 
                     else
                     {

@@ -98,8 +98,8 @@ if (response.ResponseResult == ResponseResult.Success)
                 taskModel.Id = Guid.NewGuid().ToString();
                 taskModel.Description = args[1];
                 taskModel.Status = "todo";
-                taskModel.CreatedAt = DateTime.Now.ToString("yyyy-mm-dd");
-                taskModel.UpdatedAt = DateTime.Now.ToString("yyyy-mm-dd");
+                taskModel.CreatedAt = DateTime.Today.ToShortDateString().ToString();
+                taskModel.UpdatedAt = DateTime.Today.ToShortDateString().ToString();
 
                 var taskAdd = logicApp.AddTask(taskModel);
 
