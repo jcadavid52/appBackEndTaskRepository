@@ -15,8 +15,8 @@ C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\Ta
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Models.dll
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Services.dll
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Utils.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Utils.pdb
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Models.pdb
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Data.pdb
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-LogicBusiness.pdb
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Services.pdb
-C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Utils.pdb
-C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Api\obj\Release\net8.0\PubTmp\Out\TaskCli-Models.pdb
