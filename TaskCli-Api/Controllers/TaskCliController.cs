@@ -66,7 +66,7 @@ namespace TaskCli_Api.Controllers
         [HttpPost("AddTask")]
         public IActionResult Post([FromBody] TaskModelRequest taskModelRequest)
         {
-            if (string.IsNullOrEmpty(taskModelRequest.Description))
+            if (string.IsNullOrWhiteSpace(taskModelRequest.Description))
             {
                 return BadRequest("La descripción no puede estar vacía.");
             }
