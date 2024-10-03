@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TaskCli-Utils")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TaskCli-Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04b4287ced16f1e507693002434486b9b5445dba")]
-[assembly: System.Reflection.AssemblyProductAttribute("TaskCli-Utils")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TaskCli-Utils")]
+[assembly: System.Reflection.AssemblyProductAttribute("TaskCli-Api")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TaskCli-Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
