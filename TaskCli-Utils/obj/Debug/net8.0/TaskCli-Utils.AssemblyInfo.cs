@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskCli-Utils")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04b4287ced16f1e507693002434486b9b5445dba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45fa88e13add82ac39b48623794c521c3a6a0d11")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskCli-Utils")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskCli-Utils")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

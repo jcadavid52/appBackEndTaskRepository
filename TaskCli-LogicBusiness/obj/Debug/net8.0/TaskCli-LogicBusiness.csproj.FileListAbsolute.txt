@@ -15,3 +15,4 @@ C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\Ta
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Debug\net8.0\refint\TaskCli-LogicBusiness.dll
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Debug\net8.0\TaskCli-LogicBusiness.pdb
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Debug\net8.0\ref\TaskCli-LogicBusiness.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-LogicBusiness\obj\Debug\net8.0\TaskCli-LogicBusiness.sourcelink.json

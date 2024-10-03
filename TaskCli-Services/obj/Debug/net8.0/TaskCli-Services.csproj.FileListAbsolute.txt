@@ -13,3 +13,4 @@ C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\Ta
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Debug\net8.0\refint\TaskCli-Services.dll
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Debug\net8.0\TaskCli-Services.pdb
 C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Debug\net8.0\ref\TaskCli-Services.dll
+C:\Users\Camilo Cadavid\Documents\Projects\Personal projects\Task-Cli N Capas\TaskCli-App\TaskCli-Services\obj\Debug\net8.0\TaskCli-Services.sourcelink.json
